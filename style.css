@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(161, 221, 131);
+}
+.container{
+    position: absolute;
+    width: 100%;   
+    height: 400px;
+    background-color: rgb(142, 205, 121);
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-size: 34px;
+    color: aquamarine;
+    text-shadow: 2px 3px rgb(134, 60, 101);
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color:rgb(153, 51, 129);
+}
+.tabs{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.tabs button{
+    position: relative;
+    padding: 12px 14px;
+    margin-left: 8px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border-radius: 9px;
+    transition: 0.5 ease-in;
+}
